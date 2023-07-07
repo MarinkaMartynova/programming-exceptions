@@ -1,10 +1,9 @@
 
-import java.io.FileWriter;
 import java.util.Scanner;
 
 // Запрос данных
 public class DataRequest {
-    //запись данных
+    // запись данных
     public static void dataEntry() {
         Scanner in = new Scanner(System.in);
         System.out.println();

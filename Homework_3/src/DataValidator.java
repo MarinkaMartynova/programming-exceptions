@@ -20,7 +20,7 @@ public class DataValidator {
                 count++;
             }
             if (!userData[2].matches("[а-яА-Яa-zA-Z]+")) {
-                System.out.println("Неверно введена отчество, введите строку заново");
+                System.out.println("Неверно введено отчество, введите строку заново");
                 count++;
             }
             DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
